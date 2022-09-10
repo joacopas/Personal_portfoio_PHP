@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background-color: #2a2a2a;
+  align-content: center;
+}
+
+.nav__item {
+  text-decoration: none;
+  list-style: none;
+  font-style: none;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0rem 2rem;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  align-self: center;
+  margin-right: 30rem;
+}
+.btn {
+  background-color: #26663a;
+  border-radius: 19px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.allBtn {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.intro {
+  margin-top: 12rem;
+  margin-bottom: 15rem;
+}
+
+.projects {
+  background-color: rgb(26, 26, 26);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.row {
+  padding-top: 3rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  background-color: #252525;
+  margin: 2rem 3rem;
+  border-radius: 15px;
+}
+.card-img-top {
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.card-body {
+  display: block;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  margin-top: 10rem;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  margin: 0rem 1rem;
+}
+
+.contact-me {
+  margin: 0 400px;
+  padding-top: 40px;
+  height: 70vh;
+}
+
+.modal-content {
+  background-color: #333333;
+}
+.modal-title {
+  color: white;
+}
