@@ -100,7 +100,7 @@ a {
 .title {
   margin-bottom: 2rem;
   font-size: 3rem;
-  margin: 3rem auto;
+  margin: 1rem auto;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ footer {
   background-color: black;
   padding-top: 3rem;
   padding-bottom: 2rem;
-  margin-top: 10rem;
+  margin-top: 1rem;
   justify-content: center;
 }
 
@@ -124,6 +124,7 @@ footer {
 .contact-me {
   margin: 0 400px;
   padding-top: 40px;
+  margin-bottom: 11rem;
   height: 70vh;
 }
 
@@ -132,4 +133,19 @@ footer {
 }
 .modal-title {
   color: white;
+}
+
+.aboutSubTitle {
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.text {
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
+.about {
+  padding-top: 4rem;
+  margin-bottom: 5rem;
 }

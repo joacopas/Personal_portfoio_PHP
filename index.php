@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4bacaee6a6.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/monogram.png"
+      type="image/x-icon"
+    />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Crea tu spot</title>
@@ -21,7 +30,7 @@
                 
                     foreach($nav as $item => $valor){
                     
-                        echo "<li class='nav__item'><a href=$valor >$item</a></li>";
+                        echo "<li class='nav__item'><a href='./pages/$valor' >$item</a></li>";
                     }
             
                 echo "</ul>";
@@ -29,19 +38,20 @@
             echo "</div>";
         echo "</nav>";
     ?>  
-   
-    <main>
-        <!-- app-->
-        <div class="intro">
-            <div class="container">
-                <h4>Hola, soy</h4>
-                <h1>Joaquin <span>Pastor</span></h1>
-                <h3>Estudiante de Analista de Sistemas <br />y Front-End Developer.</h3>
-             </div>
-         </div>
-    </main>
 
-    <?php
+   <?php
+    echo "<main>";
+        echo "<div class='intro'>";
+            echo "<div class='container'>";
+                echo "<h4>Hola, soy</h4>";
+                echo "<h1>Joaquin <span>Pastor</span></h1>";
+                echo "<h3>Estudiante de Analista de Sistemas <br />y Front-End Developer.</h3>";
+                echo "<button class='btn' ><a href='./pages/nosotros.php'>Conoceme</a></button>";
+            echo "</div>";
+        echo "</div>";
+    echo "</main>";
+
+    
     
     $proyectos=array("Crea tu Spot","Comming soon");
     $links=array("https://creatuspot.netlify.app/","#");

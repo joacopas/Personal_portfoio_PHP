@@ -4,10 +4,10 @@
 <?php
    $nav=array();
 
-   $nav['Home']='#';
-   $nav['Proyectos']='./pages/proyectos.php';
-   $nav['Sobre mi']='./pages/nosotros.php';
-   $nav['Contacto']='./pages/contacto.php';
+   $nav['Home']='../index.php';
+   $nav['Proyectos']='./proyectos.php';
+   $nav['Sobre mi']='./nosotros.php';
+   $nav['Contacto']='./contacto.php';
 
 
 ?>
